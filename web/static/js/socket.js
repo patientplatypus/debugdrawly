@@ -66,12 +66,14 @@ import MyApp from "../components/my-app.vue"
 import MyDrawing from "../components/my-drawing.vue"
 
 
-let socket = new Socket("/socket", {params: {token: window.userToken}})
+// let socket = new Socket("/socket", {params: {token: window.userToken}})
+// var token = Date.now();
+let socket = new Socket("/socket")
 
 socket.connect()
 
-
-let socket2 = new Socket("/socket", {params: {token: window.userToken}})
+// var token = Date.now()+1;
+let socket2 = new Socket("/socket")
 
 socket2.connect()
 

@@ -13,7 +13,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :vuechat, Vuechat.Endpoint,
   http: [port: 8080],
-  url: [host: "drawface.nanoapp.io", port: 80],
+  url: [host: "notahotdog.nanoapp.io", port: 80],
   cache_static_manifest: "priv/static/manifest.json"
 
 # Do not print debug messages in production
